@@ -7,6 +7,8 @@ function Card(props) {
             {/* below it should be <img src={`../../images/${props.img}`}
                 instead for it to work now i've replaced with <img src={girl}
             */}
+            {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
+            {/* ABOVE: If the left part resolves as truthy the right part will be run and viceversa*/}
             <img src={girl} className="card--image" alt="user"/>
             <div className="card--stats">
                 <img src="../images/star.png" className="card--star" alt="a star"/>

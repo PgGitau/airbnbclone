@@ -1,3 +1,5 @@
+// This array is Mimicking Data which is usually captured through an API
+
 const dataArray =  [
     {
         id: 1,
@@ -36,7 +38,7 @@ const dataArray =  [
             reviewCount: 2
         },
         location: "Norway",
-        openSpots: 3,
+        openSpots: 0,
     },
     {
         id: 4,
@@ -75,7 +77,7 @@ const dataArray =  [
             reviewCount: 200
         },
         location: "Europe",
-        openSpots: 13,
+        openSpots: 0,
     }
 ]
 
