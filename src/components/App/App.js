@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import Navbar from '../Navbar/Navbar';
-// import Hero from '../Hero/Hero';
+import Hero from '../Hero/Hero';
 import Card from '../Card/Card';
 import './App.css';
 import dataArray from '../Data';
@@ -20,8 +20,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Hero />
       {cardItems}
-      {/* <Hero /> */}
     </div>
   );
 }
