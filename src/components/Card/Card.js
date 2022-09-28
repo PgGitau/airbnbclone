@@ -3,9 +3,9 @@ import girl from '../../Images/girl.webp';
 
 function Card(props) {
     let badgeText
-    if (props.openSpots === 0) {
+    if (props.cardItem.openSpots === 0) {
         badgeText = "SOLD OUT"
-    } else if (props.location === "Online") {
+    } else if (props.cardItem.location === "Online") {
         badgeText = "ONLINE"
     }
 
@@ -19,12 +19,12 @@ function Card(props) {
             <img src={girl} className="card--image" alt="user"/>
             <div className="card--stats">
                 <img src="../images/star.png" className="card--star" alt="a star"/>
-                <span>{props.rating}</span>
-                <span className="gray">({props.reviewCount}) • </span>
-                <span className="gray">{props.location}</span>
+                <span>{props.cardItem.stats.rating}</span>
+                <span className="gray">({props.cardItem.stats.reviewCount}) • </span>
+                <span className="gray">{props.cardItem.location}</span>
             </div>
-            <p className="card--title">{props.title}</p>
-            <p className="card--price"><span className="bold">From ${props.price}</span> / person</p>
+            <p className="card--title">{props.cardItem.title}</p>
+            <p className="card--price"><span className="bold">From ${props.cardItem.price}</span> / person</p>
         </div>
     )
 }

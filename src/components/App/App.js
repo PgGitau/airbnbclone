@@ -9,13 +9,7 @@ function App() {
   const cardItems = dataArray.map(cardItem => {
     return <Card 
               key={cardItem.id}
-              img={cardItem.coverImg}
-              rating= {cardItem.stats.rating}
-              reviewCount={cardItem.stats.reviewCount}
-              location={cardItem.location}
-              title={cardItem.title}
-              price={cardItem.price}
-              openSpots={cardItem.openSpots}
+              cardItem = {cardItem}
            />
   } ) 
 
