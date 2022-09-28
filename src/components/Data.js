@@ -37,6 +37,45 @@ const dataArray =  [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Group Swimming",
+        description: "Experience the beautiful swimming pool and meet new friends all while conquering water. (Swim suits provided!)",
+        price: 150,
+        coverImg: "another.webp",
+        stats: {
+            rating: 3.8,
+            reviewCount: 3
+        },
+        location: "Canada",
+        openSpots: 5,
+    },
+    {
+        id: 5,
+        title: "Reading",
+        description: "Experience the beautiful Canadian library and meet new friends all while reading. (Books provided!)",
+        price: 200,
+        coverImg: "read.webp",
+        stats: {
+            rating: 4.9,
+            reviewCount: 12
+        },
+        location: "Canada",
+        openSpots: 10,
+    },
+    {
+        id: 6,
+        title: "Football",
+        description: "Experience the beautiful European football stadiums. (Jerseys provided!)",
+        price: 300,
+        coverImg: "jersey.webp",
+        stats: {
+            rating: 5.0,
+            reviewCount: 200
+        },
+        location: "Europe",
+        openSpots: 13,
     }
 ]
 
