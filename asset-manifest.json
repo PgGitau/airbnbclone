@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/airbnbclone/static/css/main.c01551e2.css",
-    "main.js": "/airbnbclone/static/js/main.1a9f4f73.js",
+    "main.css": "/airbnbclone/static/css/main.f393b134.css",
+    "main.js": "/airbnbclone/static/js/main.04828e0b.js",
     "static/js/787.27d3649c.chunk.js": "/airbnbclone/static/js/787.27d3649c.chunk.js",
     "static/media/activity.webp": "/airbnbclone/static/media/activity.cacd2b88374e78ceb08b.webp",
+    "static/media/girl.webp": "/airbnbclone/static/media/girl.d8c691ba44f490412f5c.webp",
     "index.html": "/airbnbclone/index.html",
-    "main.c01551e2.css.map": "/airbnbclone/static/css/main.c01551e2.css.map",
-    "main.1a9f4f73.js.map": "/airbnbclone/static/js/main.1a9f4f73.js.map",
+    "main.f393b134.css.map": "/airbnbclone/static/css/main.f393b134.css.map",
+    "main.04828e0b.js.map": "/airbnbclone/static/js/main.04828e0b.js.map",
     "787.27d3649c.chunk.js.map": "/airbnbclone/static/js/787.27d3649c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c01551e2.css",
-    "static/js/main.1a9f4f73.js"
+    "static/css/main.f393b134.css",
+    "static/js/main.04828e0b.js"
   ]
 }
