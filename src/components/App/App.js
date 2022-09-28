@@ -10,6 +10,7 @@ function App() {
     return <Card 
               key={cardItem.id}
               cardItem = {cardItem}
+              // There's another way of doing above by using ES6 spread syntax({...cardItem})
            />
   } ) 
 
